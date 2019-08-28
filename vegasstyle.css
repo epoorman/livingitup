@@ -1,7 +1,91 @@
-h1 {
+body {
+  background-color: #87ceeb;
+  font-family: "Georgia";
   text-align: center;
 }
-h4 {
-  font-weight: normal;
-  font-family: "Arial";
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4af37;
+  border: 5px solid red;
+}
+
+#intro {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: cursive;
+  font-weight: bolder;
+  margin-bottom: 3px;
+}
+
+hr {
+border: none;
+width: 50%;
+margin: auto;
+margin-top: 5%;
+margin-bottom: 5%;
+height: 40px;
+background: linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -20px 0,
+linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -20px 0,
+linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+background-size: 40px 40px;
+background-color: #EC173A;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: "Georgia";
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#dollarsign_left {
+  float: left;
+  height: 8%;
+  width: 8%;
+}
+
+#dollarsign_right {
+  float: right;
+  height: 8%;
+  width: 8%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border: 3px solid black;
+}
+
+figcaption {
+  text-align: center;
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#buffet {
+  width: 150px;
+  height: 275px;
 }
